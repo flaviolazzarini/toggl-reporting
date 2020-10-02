@@ -1,0 +1,5 @@
+{
+    "eslint.options": {
+    "configFile":"/Users/flaviolazzarini/Documents/dev/ausbildung/electron/toggl-reporting/.eslingrc.json"
+    }
+}
