@@ -12,6 +12,8 @@ import { MatIconModule } from '@angular/material/icon';
 import { HomeComponent } from './home/home.component';
 import { SettingsComponent } from './settings/settings.component';
 
+import { CoreModule } from './core/core.module';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,7 +27,8 @@ import { SettingsComponent } from './settings/settings.component';
     BrowserAnimationsModule,
     MatToolbarModule,
     MatButtonModule,
-    MatIconModule
+    MatIconModule,
+    CoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]

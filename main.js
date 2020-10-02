@@ -22,7 +22,7 @@ function createWindow() {
         },
     });
     if (serve) {
-        //win.webContents.openDevTools();
+        win.webContents.openDevTools();
         require('electron-reload')(__dirname, {
             electron: require(__dirname + "/node_modules/electron")
         });
