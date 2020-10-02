@@ -21,7 +21,18 @@
           "windows": {
               "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/electron.cmd"
           }
-      }, {
+      },
+      {
+        "name": "Electron: Renderer",
+        "type": "chrome",
+        "request": "attach",
+        "port": 9222,
+        "webRoot": "${workspaceFolder}/",
+        "sourceMaps": true,
+        "timeout": 30000,
+        "trace": true
+    },
+      {
           "name": "Karma Attach Chrome",
           "type": "chrome",
           "request": "attach",
