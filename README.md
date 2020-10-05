@@ -1,6 +1,6 @@
 # TogglReporting
 
-This project is a hybrid Desktop application based on electron. The web application is written in Angular. In order 
+This project is a hybrid Desktop application based on electron. The web application is written in Angular.
 
 ## Development
 
